@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paola Vidal | UX/UI Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+body{font-family:Inter,sans-serif;margin:0;background:#f8fafc;color:#111827;line-height:1.6}
+.hero{padding:80px 20px;text-align:center;background:white}
+.container{max-width:1000px;margin:auto;padding:20px}
+.card{background:white;border-radius:16px;padding:24px;margin:20px 0;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+h1{font-size:3rem;margin-bottom:10px}
+h2{margin-top:0}
+.btn{display:inline-block;padding:10px 18px;background:#2563eb;color:white;text-decoration:none;border-radius:8px}
+.skills span{display:inline-block;background:#e5e7eb;padding:8px 12px;border-radius:20px;margin:4px}
+footer{text-align:center;padding:40px;color:#6b7280}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<h1>Paola Vidal</h1>
+<p><strong>UX/UI Designer & Software Development Student</strong></p>
+<p>Designing accessible, intuitive, and user-centered digital experiences.</p>
+</section>
+
+<div class="container">
+
+<div class="card">
+<h2>About Me</h2>
+<p>I am a Software Development student with experience in UX/UI design, wireframing, prototyping, and accessibility-focused solutions. My projects focus on creating intuitive interfaces that improve usability and user engagement.</p>
+</div>
+
+<div class="card">
+<h2>Skills</h2>
+<div class="skills">
+<span>UX Research</span>
+<span>Wireframing</span>
+<span>Prototyping</span>
+<span>Accessibility</span>
+<span>Figma</span>
+<span>HTML/CSS</span>
+<span>ASP.NET MVC</span>
+<span>SQL Server</span>
+</div>
+</div>
+
+<div class="card">
+<h2>School-Oriented Autism Support Application</h2>
+<p>Designed a user manual and interface concepts focused on accessibility and usability.</p>
+<a class="btn" href="https://docs.google.com/document/d/17F6mM7y7y1ELYFg87oVYawp9isJngWAKct7_O_luz3I/edit?usp=sharing">View Project</a>
+</div>
+
+<div class="card">
+<h2>EcoPoints</h2>
+<p>Mobile application concept that encourages recycling habits through intuitive design and user engagement.</p>
+<a class="btn" href="https://www.figma.com/design/hf0ZmT6MyDcsj2evBwjoax/EcoPoints?node-id=0-1&t=7y9iQ5dR3SZjC6Jr-1">View Prototype</a>
+</div>
+
+<div class="card">
+<h2>Focus Bear</h2>
+<p>UX/UI redesign focused on navigation clarity, accessibility, and user experience improvements.</p>
+<a class="btn" href="https://www.figma.com/design/Tx40E6OMUTIsDRihlZDc4k/Focus-Bear?node-id=0-1&t=iZ7dU73QizJ7iHfw-1">View Prototype</a>
+</div>
+
+<div class="card">
+<h2>Design Process</h2>
+<p>Research → Define → Wireframe → Prototype → Test → Improve</p>
+</div>
+
+</div>
+
+<footer>
+Paola Vidal • UX/UI Portfolio
+</footer>
+
+</body>
+</html>
