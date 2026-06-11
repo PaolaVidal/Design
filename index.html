@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paola Vidal | UX/UI Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#0f172a,#1e1b4b,#2563eb);
+color:#fff;
+}
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+background:radial-gradient(circle at top,#3b82f6,#1e1b4b,#0f172a);
+}
+.hero h1{
+font-size:4rem;
+margin-bottom:10px;
+}
+.hero p{
+max-width:700px;
+font-size:1.2rem;
+opacity:.9;
+}
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 28px;
+background:#fff;
+color:#2563eb;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+}
+.container{
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
+}
+.section-title{
+font-size:2rem;
+margin-bottom:25px;
+text-align:center;
+}
+.about{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:20px;
+margin-bottom:40px;
+}
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+margin-top:20px;
+}
+.skills span{
+background:#3b82f6;
+padding:10px 16px;
+border-radius:999px;
+}
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+.card{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(10px);
+padding:25px;
+border-radius:20px;
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-8px);
+}
+.card h3{
+margin-bottom:10px;
+}
+.card p{
+opacity:.9;
+margin-bottom:15px;
+}
+.card a{
+color:#93c5fd;
+text-decoration:none;
+font-weight:600;
+}
+.process{
+margin-top:50px;
+text-align:center;
+}
+.steps{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+margin-top:20px;
+}
+.steps div{
+background:#2563eb;
+padding:15px 20px;
+border-radius:15px;
+}
+footer{
+text-align:center;
+padding:40px;
+opacity:.8;
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<h1>Paola Vidal</h1>
+<h2>UX/UI Designer & Software Development Student</h2>
+<p>Creating accessible, intuitive and engaging digital experiences through user-centered design and modern interfaces.</p>
+<a href="#projects" class="btn">View My Projects</a>
+</section>
+
+<div class="container">
+
+<section class="about">
+<h2 class="section-title">About Me</h2>
+<p>
+I am a Software Development student passionate about UX/UI Design, accessibility, and creating meaningful digital experiences. I enjoy transforming ideas into intuitive interfaces that solve real user problems while maintaining a clean and modern visual style.
+</p>
+
+<div class="skills">
+<span>UX Research</span>
+<span>Wireframing</span>
+<span>Prototyping</span>
+<span>Figma</span>
+<span>Accessibility</span>
+<span>User Flows</span>
+<span>HTML/CSS</span>
+<span>ASP.NET MVC</span>
+<span>SQL Server</span>
+</div>
+</section>
+
+<h2 class="section-title" id="projects">Featured Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>🧩 School-Oriented Autism Support Application</h3>
+<p>Accessibility-focused UX project designed to support caregivers and educational environments through intuitive and inclusive experiences.</p>
+<a href="https://docs.google.com/document/d/17F6mM7y7y1ELYFg87oVYawp9isJngWAKct7_O_luz3I/edit?usp=sharing">View Project →</a>
+</div>
+
+<div class="card">
+<h3>♻️ EcoPoints</h3>
+<p>Mobile application concept that encourages recycling habits through engagement, gamification, and user-friendly interactions.</p>
+<a href="https://www.figma.com/design/hf0ZmT6MyDcsj2evBwjoax/EcoPoints?node-id=0-1&t=7y9iQ5dR3SZjC6Jr-1">View Prototype →</a>
+</div>
+
+<div class="card">
+<h3>🐻 Focus Bear Redesign</h3>
+<p>UX/UI redesign focused on improving navigation clarity, accessibility, and productivity-centered user experiences.</p>
+<a href="https://www.figma.com/design/Tx40E6OMUTIsDRihlZDc4k/Focus-Bear?node-id=0-1&t=iZ7dU73QizJ7iHfw-1">View Prototype →</a>
+</div>
+
+</div>
+
+<section class="process">
+<h2 class="section-title">My Design Process</h2>
+<div class="steps">
+<div>🔍 Research</div>
+<div>🎯 Define</div>
+<div>✏️ Wireframe</div>
+<div>🎨 Prototype</div>
+<div>🧪 Test</div>
+<div>🚀 Improve</div>
+</div>
+</section>
+
+</div>
+
+<footer>
+✨ Designed by Paola Vidal • UX/UI Portfolio
+</footer>
+
+</body>
+</html>
